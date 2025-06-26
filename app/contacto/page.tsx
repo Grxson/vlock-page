@@ -159,15 +159,14 @@ export default function ContactoPage() {
                     <Phone className="h-6 w-6 text-red-600 dark:text-red-400" />
                     <div>
                       <p className="font-semibold text-gray-900 dark:text-white">Teléfonos</p>
-                      <p className="text-gray-600 dark:text-gray-300">+52 (81) 1234-5678</p>
-                      <p className="text-gray-600 dark:text-gray-300">+52 (81) 8765-4321</p>
+                      <p className="text-gray-600 dark:text-gray-300">+52 (1) 33 1290-8259</p>
                     </div>
                   </div>
                   <div className="flex items-center space-x-4">
                     <Mail className="h-6 w-6 text-red-600 dark:text-red-400" />
                     <div>
                       <p className="font-semibold text-gray-900 dark:text-white">Correos Electrónicos</p>
-                      <p className="text-gray-600 dark:text-gray-300">info@vlock.com.mx</p>
+                      <p className="text-gray-600 dark:text-gray-300">vlock.constructora@gmail.com</p>
                       <p className="text-gray-600 dark:text-gray-300">ventas@vlock.com.mx</p>
                     </div>
                   </div>
@@ -175,9 +174,9 @@ export default function ContactoPage() {
                     <MapPin className="h-6 w-6 text-red-600 dark:text-red-400 mt-1" />
                     <div>
                       <p className="font-semibold text-gray-900 dark:text-white">Dirección</p>
-                      <p className="text-gray-600 dark:text-gray-300">Av. Constitución 1234</p>
-                      <p className="text-gray-600 dark:text-gray-300">Col. Centro, Monterrey, N.L.</p>
-                      <p className="text-gray-600 dark:text-gray-300">C.P. 64000, México</p>
+                      <p className="text-gray-600 dark:text-gray-300">C. Aldama 1949</p>
+                      <p className="text-gray-600 dark:text-gray-300">Col. San Antonio, Guadalajara, Jal.</p>
+                      <p className="text-gray-600 dark:text-gray-300">C.P. 44800, México</p>
                     </div>
                   </div>
                 </div>

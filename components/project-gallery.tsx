@@ -168,6 +168,15 @@ export default function ProjectGallery({ images, projectTitle, className = "" }:
                                 className="object-contain"
                                 priority
                             />
+
+                            {/* Close Button */}
+                            <button
+                                onClick={() => setIsFullscreen(false)}
+                                className="absolute top-4 right-4 bg-black/70 text-white p-3 rounded-full hover:bg-black/80 transition-colors z-10"
+                            >
+                                ✕
+                            </button>
+
                             {/* Navigation in Fullscreen */}
                             {images.length > 1 && (
                                 <>
