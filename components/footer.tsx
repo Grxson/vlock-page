@@ -121,7 +121,6 @@ export default function Footer() {
                 <Phone className="h-5 w-5 text-red-400" />
                 <div>
                   <p>+52 (1) 33 1290-8259</p>
-                  <p>+52 (1) 33 1700-6380</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3 justify-center md:justify-start">
