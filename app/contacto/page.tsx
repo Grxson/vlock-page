@@ -167,7 +167,6 @@ export default function ContactoPage() {
                     <div>
                       <p className="font-semibold text-gray-900 dark:text-white">Correos Electrónicos</p>
                       <p className="text-gray-600 dark:text-gray-300">vlock.constructora@gmail.com</p>
-                      <p className="text-gray-600 dark:text-gray-300">ventas@vlock.com.mx</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-4">

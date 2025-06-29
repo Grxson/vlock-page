@@ -104,7 +104,7 @@ export default function MisionVisionPage() {
               </div>
               <div className="order-1 lg:order-2 relative h-96 animate-slide-in-right">
                 <Image
-                  src="/placeholder.svg?height=500&width=600"
+                  src="/image.png?height=500&width=600"
                   alt="Misión de Vlock Constructora"
                   fill
                   className="object-cover rounded-lg shadow-lg hover-lift"

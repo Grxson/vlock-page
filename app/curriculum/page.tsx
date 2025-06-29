@@ -108,8 +108,8 @@ export default function CurriculumPage() {
                   <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">Datos Destacados</h3>
                   <ul className="text-gray-600 dark:text-gray-300 space-y-2 text-left">
                     <li>• +500 proyectos completados</li>
-                    <li>• +15 años de experiencia</li>
-                    <li>• 98% proyectos a tiempo</li>
+                    <li>• +10 años de experiencia</li>
+                    <li>• 100% proyectos a tiempo</li>
                     <li>• Equipo de +50 profesionales</li>
                   </ul>
                 </div>

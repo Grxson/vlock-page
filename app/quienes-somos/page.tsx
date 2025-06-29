@@ -77,7 +77,7 @@ export default function QuienesSomosPage() {
         {/* Header Section */}
         <section className="py-20 bg-gradient-to-r from-red-600 to-red-800 animate-fade-in">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 animate-slide-in-up">Quiénes Somos</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 animate-slide-in-up">¿Quiénes Somos?</h1>
             <p className="text-xl text-red-100 max-w-3xl mx-auto animate-slide-in-up animate-delay-200">
               Conoce la historia, experiencia y valores que nos han convertido en líderes del sector constructivo en
               México.

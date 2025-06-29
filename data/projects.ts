@@ -4,7 +4,7 @@ export interface Project {
   description: string
   image: string
   gallery: string[] // Nueva propiedad para la galería
-  status: "Terminados" | "En proceso"
+  status: "Terminados" | "Terminados"
   serviceType: string
   location: string
   completionDate?: string
@@ -13,114 +13,124 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: "centro-comercial-plaza-norte",
-    title: "Centro Comercial Plaza Norte",
-    description: "Construcción de centro comercial de 15,000 m² con 3 niveles y estacionamiento subterráneo.",
-    image: "/placeholder.svg?height=300&width=400",
-    gallery: [
-      "/placeholder.svg?height=300&width=400",
-      "/placeholder.svg?height=300&width=400&text=Fachada+Principal",
-      "/placeholder.svg?height=300&width=400&text=Interior+Centro+Comercial",
-      "/placeholder.svg?height=300&width=400&text=Estacionamiento",
-      "/placeholder.svg?height=300&width=400&text=Área+de+Restaurantes",
-      "/placeholder.svg?height=300&width=400&text=Vista+Aérea",
+    "id": "nextipark-naves-industriales-zapopan",
+    "title": "NextiPark - Preliminares para Naves Industriales",
+    "description": "Trabajos preliminares para la construcción de naves industriales, incluyendo nivelación, limpieza y cimentación inicial.",
+    "image": "/projects-images/NEXTIPARK/48.webp?height=300&width=400&text=NextiPark",
+    "gallery": [
+      "/projects-images/NEXTIPARK/48.webp?height=300&width=400&",
+      "/projects-images/NEXTIPARK/49.webp?height=300&width=400&",
+      "/projects-images/NEXTIPARK/50.webp?height=300&width=400&",
     ],
-    status: "Terminados",
-    serviceType: "Edificaciones Comerciales",
-    location: "Monterrey, N.L.",
-    completionDate: "Marzo 2024",
-    area: "15,000 m²",
+    "status": "Terminados",
+    "serviceType": "Obra Civil",
+    "location": "Zapopan, Jalisco",
+    "area": "15,000 m²"
   },
   {
-    id: "puente-vehicular-rio-santa-catarina",
-    title: "Puente Vehicular Río Santa Catarina",
-    description: "Construcción de puente vehicular de 4 carriles con ciclovía integrada.",
-    image: "/placeholder.svg?height=300&width=400",
-    gallery: [
-      "/placeholder.svg?height=300&width=400",
-      "/placeholder.svg?height=300&width=400&text=Estructura+Principal",
-      "/placeholder.svg?height=300&width=400&text=Ciclovía",
-      "/placeholder.svg?height=300&width=400&text=Pilares",
-      "/placeholder.svg?height=300&width=400&text=Vista+Nocturna",
-      "/placeholder.svg?height=300&width=400&text=Proceso+Construcción",
+    "id": "torre-countryclub-muros-interiores",
+    "title": "Torre de Departamentos Country Club",
+    "description": "Colocación de muros interiores y de elevador en torre de departamentos de alto nivel.",
+    "image": "/projects-images/TORRE-DE-DEPARTAMENTOS-COUNTRY-CLUB/51.webp?height=300&width=400&text=Country+Club",
+    "gallery": [
+      "/projects-images/TORRE-DE-DEPARTAMENTOS-COUNTRY-CLUB/51.webp?height=300&width=400&",
+      "/projects-images/TORRE-DE-DEPARTAMENTOS-COUNTRY-CLUB/19.webp?height=300&width=400&",
+      "/projects-images/TORRE-DE-DEPARTAMENTOS-COUNTRY-CLUB/52.webp?height=300&width=400&",
     ],
-    status: "En proceso",
-    serviceType: "Obra Civil",
-    location: "San Pedro, N.L.",
-    area: "280 m lineales",
+    "status": "Terminados",
+    "serviceType": "Albañilería",
+    "location": "Guadalajara, Jalisco",
+    "area": "2,000 m²"
   },
   {
-    id: "nave-industrial-logistica",
-    title: "Nave Industrial Logística",
-    description: "Construcción de nave industrial para centro de distribución con sistemas automatizados.",
-    image: "/placeholder.svg?height=300&width=400",
-    gallery: [
-      "/placeholder.svg?height=300&width=400",
-      "/placeholder.svg?height=300&width=400&text=Interior+Nave",
-      "/placeholder.svg?height=300&width=400&text=Sistemas+Automatizados",
-      "/placeholder.svg?height=300&width=400&text=Área+de+Carga",
-      "/placeholder.svg?height=300&width=400&text=Oficinas+Administrativas",
-      "/placeholder.svg?height=300&width=400&text=Fachada+Exterior",
+    "id": "pulso-park-el-salto",
+    "title": "Pulso Park",
+    "description": "Proyecto integral en parque industrial, con enfoque en infraestructura para empresas logísticas.",
+    "image": "/projects-images/PULSO-PARK-EL-SALTO/53.webp?height=300&width=400&text=Pulso+Park",
+    "gallery": [
+      "/projects-images/PULSO-PARK-EL-SALTO/53.webp?height=300&width=400&text=Oficinas",
+      "/projects-images/PULSO-PARK-EL-SALTO/54.webp?height=300&width=400&text=Calles+Interiores",
+      "/projects-images/PULSO-PARK-EL-SALTO/55.webp?height=300&width=400&text=Fachada",
     ],
-    status: "Terminados",
-    serviceType: "Obra Industrial",
-    location: "Apodaca, N.L.",
-    completionDate: "Enero 2024",
-    area: "8,500 m²",
+    "status": "Terminados",
+    "serviceType": "Urbanización",
+    "location": "El Salto, Jalisco",
+    "area": "40,000 m²"
   },
   {
-    id: "residencial-valle-oriente",
-    title: "Residencial Valle Oriente",
-    description: "Desarrollo habitacional de 120 viviendas con amenidades y áreas verdes.",
-    image: "/placeholder.svg?height=300&width=400",
-    gallery: [
-      "/placeholder.svg?height=300&width=400",
-      "/placeholder.svg?height=300&width=400&text=Casa+Modelo",
-      "/placeholder.svg?height=300&width=400&text=Áreas+Verdes",
-      "/placeholder.svg?height=300&width=400&text=Amenidades",
-      "/placeholder.svg?height=300&width=400&text=Entrada+Principal",
-      "/placeholder.svg?height=300&width=400&text=Vista+General",
+    "id": "hersheys-ampliacion-pastas",
+    "title": "Hershey’s - Ampliación de Pastas",
+    "description": "Construcción de muros perimetrales e interiores en la ampliación de planta de producción.",
+    "image": "/projects-images/HERSHEY'S/56.webp?height=300&width=400&text=Hersheys",
+    "gallery": [
+      "/projects-images/HERSHEY'S/56.webp?height=300&width=400&text=Muros+Interiores",
+      "/projects-images/HERSHEY'S/57.webp?height=300&width=400&text=Muros+Interiores",
+      "/projects-images/HERSHEY'S/58.webp?height=300&width=400&text=Barda+Perimetral",
+      "/projects-images/HERSHEY'S/59.webp?height=300&width=400&text=Estructura+Industrial",
+      "/projects-images/HERSHEY'S/60.webp?height=300&width=400&text=Estructura+Industrial"
     ],
-    status: "En proceso",
-    serviceType: "Desarrollos Habitacionales",
-    location: "San Pedro, N.L.",
-    area: "45,000 m²",
+    "status": "Terminados",
+    "serviceType": "Obra Industrial",
+    "location": "El Salto, Jalisco",
+    "area": "10,000 m²"
   },
   {
-    id: "piso-concreto-planta-automotriz",
-    title: "Piso de Concreto Planta Automotriz",
-    description: "Instalación de piso industrial de alta resistencia para planta manufacturera.",
-    image: "/placeholder.svg?height=300&width=400",
-    gallery: [
-      "/placeholder.svg?height=300&width=400",
-      "/placeholder.svg?height=300&width=400&text=Piso+Terminado",
-      "/placeholder.svg?height=300&width=400&text=Proceso+Instalación",
-      "/placeholder.svg?height=300&width=400&text=Área+Producción",
-      "/placeholder.svg?height=300&width=400&text=Acabado+Pulido",
-      "/placeholder.svg?height=300&width=400&text=Control+Calidad",
+    "id": "hiker-cargo-remodelacion-oficinas",
+    "title": "Hiker Cargo - Remodelación de Oficinas",
+    "description": "Remodelación completa de oficinas corporativas y adecuaciones en instalaciones existentes.",
+    "image": "/projects-images/HIKER-CARGO/61.webp?height=300&width=400&text=Hiker+Cargo",
+    "gallery": [
+      "/projects-images/HIKER-CARGO/61.webp?height=300&width=400&",
+      "/projects-images/HIKER-CARGO/62.webp?height=300&width=400&",
+      "/projects-images/HIKER-CARGO/63.webp?height=300&width=400&"
     ],
-    status: "Terminados",
-    serviceType: "Pisos de Concreto",
-    location: "García, N.L.",
-    completionDate: "Febrero 2024",
-    area: "12,000 m²",
+    "status": "Terminados",
+    "serviceType": "Remodelación",
+    "location": "Guadalajara y Hacienda Vieja El Castillo, Jalisco",
+    "area": "800 m²"
   },
   {
-    id: "oficinas-corporativas-sustentables",
-    title: "Oficinas Corporativas Sustentables",
-    description: "Edificio de oficinas con certificación LEED y tecnologías verdes.",
-    image: "/placeholder.svg?height=300&width=400",
-    gallery: [
-      "/placeholder.svg?height=300&width=400",
-      "/placeholder.svg?height=300&width=400&text=Fachada+Verde",
-      "/placeholder.svg?height=300&width=400&text=Paneles+Solares",
-      "/placeholder.svg?height=300&width=400&text=Interior+Oficinas",
-      "/placeholder.svg?height=300&width=400&text=Jardín+Vertical",
-      "/placeholder.svg?height=300&width=400&text=Sistema+Captación+Agua",
+    "id": "asa-combustibles-puerto-vallarta",
+    "title": "Estación de Combustibles ASA",
+    "description": "Trabajos de mantenimiento general, remodelación y construcción de barda perimetral prefabricada.",
+    "image": "/projects-images/ESTACION-DE-COMBUSTIBLES-ASA/65.webp?height=300&width=400&text=ASA+Combustibles",
+    "gallery": [
+      "/projects-images/ESTACION-DE-COMBUSTIBLES-ASA/65.webp?height=300&width=400&text=Muro+Perimetral",
+      "/projects-images/ESTACION-DE-COMBUSTIBLES-ASA/66.webp?height=300&width=400&text=Accesos"
     ],
-    status: "En proceso",
-    serviceType: "Construcción Sustentable",
-    location: "Monterrey, N.L.",
-    area: "6,800 m²",
+    "status": "Terminados",
+    "serviceType": "Mantenimiento y Prefabricados",
+    "location": "Puerto Vallarta, Jalisco",
+    "area": "2,500 m²"
   },
+  {
+    "id": "aeropuerto-guadalajara-salas",
+    "title": "Aeropuerto de Guadalajara - Remodelación de Salas",
+    "description": "Modernización y adecuación de salas de espera en aeropuerto internacional.",
+    "image": "/projects-images/AEROPUERTO-DE-GUADALAJARA/67.webp?height=300&width=400&text=Aeropuerto+GDL",
+    "gallery": [
+      "/projects-images/AEROPUERTO-DE-GUADALAJARA/67.webp?height=300&width=400&",
+      "/projects-images/AEROPUERTO-DE-GUADALAJARA/68.webp?height=300&width=400&",
+      "/projects-images/AEROPUERTO-DE-GUADALAJARA/69.webp?height=300&width=400&"
+    ],
+    "status": "Terminados",
+    "serviceType": "Remodelación",
+    "location": "Guadalajara, Jalisco",
+    "area": "1,200 m²"
+  },
+  {
+    "id": "altosur-torre-departamentos",
+    "title": "Fraccionamiento Altosur - Torre de Departamentos",
+    "description": "Construcción de torre habitacional como parte del nuevo desarrollo urbano Altosur.",
+    "image": "/projects-images/FRACCIONAMIENTO-ALTOSUR/71.webp?height=300&width=400&text=Altosur",
+    "gallery": [
+      "/projects-images/FRACCIONAMIENTO-ALTOSUR/71.webp?height=300&width=400&text=Obra+Gris",
+      "/projects-images/FRACCIONAMIENTO-ALTOSUR/70.webp?height=300&width=400&text=Estructura+Vertical",
+      "/projects-images/FRACCIONAMIENTO-ALTOSUR/72.webp?height=300&width=400&text=Vivienda"
+    ],
+    "status": "Terminados",
+    "serviceType": "Construcción Habitacional",
+    "location": "Guadalajara, Jalisco",
+    "area": "5,000 m²"
+  }
 ]

@@ -11,64 +11,55 @@ export const services: Service[] = [
   {
     id: "obra-civil",
     name: "Obra Civil",
-    description: "Construcción de infraestructura pública y privada con los más altos estándares de calidad.",
+    description: "Infraestructura básica para desarrollos urbanos e industriales.",
     detailedDescription:
-      "Nos especializamos en la construcción de infraestructura civil incluyendo carreteras, puentes, sistemas de drenaje, obras hidráulicas y proyectos de urbanización. Contamos con maquinaria especializada y un equipo técnico altamente capacitado para garantizar la excelencia en cada proyecto.",
-    image: "/placeholder.svg?height=300&width=400",
+      "Realizamos obras civiles como terracerías, nivelaciones, cimentaciones, redes hidráulicas, drenaje y urbanización. Nuestra experiencia abarca desde parques industriales hasta fraccionamientos residenciales.",
+    image: "/Servicios/obra-civil.webp?height=300&width=400&text=Obra+Civil",
     category: "Infraestructura",
   },
   {
     id: "obra-industrial",
     name: "Obra Industrial",
-    description: "Construcción de instalaciones industriales adaptadas a las necesidades específicas de cada cliente.",
+    description: "Construcción de plantas, naves y espacios productivos.",
     detailedDescription:
-      "Desarrollamos proyectos industriales completos incluyendo naves industriales, plantas de producción, almacenes especializados y centros de distribución. Nuestro enfoque se centra en la funcionalidad, seguridad y eficiencia operativa.",
-    image: "/placeholder.svg?height=300&width=400",
+      "Desarrollamos obras industriales como naves de manufactura, almacenes logísticos, bardas perimetrales, muros interiores y áreas de producción. Diseñamos según los requerimientos operativos de cada empresa.",
+    image: "/Servicios/obra-industrial.webp?height=300&width=400&text=Obra+Industrial",
     category: "Industrial",
   },
-  {
-    id: "pisos-concreto",
-    name: "Pisos de Concreto",
-    description: "Instalación de pisos de concreto industriales y comerciales de alta resistencia.",
-    detailedDescription:
-      "Ofrecemos soluciones integrales en pisos de concreto para uso industrial, comercial y residencial. Utilizamos tecnología de punta para garantizar durabilidad, resistencia y acabados perfectos. Incluye pisos pulidos, estampados y con tratamientos especiales.",
-    image: "/placeholder.svg?height=300&width=400",
-    category: "Especializado",
-  },
-  {
+{
     id: "edificaciones-comerciales",
     name: "Edificaciones Comerciales",
-    description: "Construcción de espacios comerciales modernos y funcionales.",
+    description: "Construcción y adecuación de espacios comerciales y corporativos.",
     detailedDescription:
-      "Construimos centros comerciales, oficinas corporativas, locales comerciales y espacios de retail. Nos enfocamos en crear ambientes que maximicen la experiencia del usuario y la rentabilidad del negocio, cumpliendo con todas las normativas comerciales.",
-    image: "/placeholder.svg?height=300&width=400",
+      "Desarrollamos oficinas, locales comerciales, centros de atención y remodelaciones corporativas. Nos enfocamos en funcionalidad, diseño moderno y cumplimiento de normativas para negocios exitosos.",
+    image: "/Servicios/edificaciones-comerciales.webp?height=300&width=400&text=Comercial",
     category: "Comercial",
   },
   {
-    id: "desarrollos-habitacionales",
-    name: "Desarrollos Habitacionales",
-    description: "Construcción de viviendas y desarrollos residenciales de calidad.",
+    id: "remodelacion-y-mantenimiento",
+    name: "Remodelación y Mantenimiento",
+    description: "Rehabilitación de espacios para mayor funcionalidad y estética.",
     detailedDescription:
-      "Desarrollamos proyectos habitacionales desde viviendas unifamiliares hasta complejos residenciales. Nos especializamos en crear espacios habitables que combinen comodidad, funcionalidad y diseño arquitectónico contemporáneo.",
-    image: "/placeholder.svg?height=300&width=400",
-    category: "Residencial",
-  },
-  {
-    id: "remodelaciones",
-    name: "Remodelaciones",
-    description: "Renovación y modernización de espacios existentes.",
-    detailedDescription:
-      "Transformamos espacios existentes mediante remodelaciones integrales o parciales. Desde renovaciones residenciales hasta modernización de oficinas y locales comerciales, adaptándonos a las nuevas necesidades y tendencias del mercado.",
-    image: "/placeholder.svg?height=300&width=400",
+      "Ejecutamos remodelaciones integrales de oficinas, salas de espera, estaciones de servicio y áreas operativas. Ofrecemos mantenimiento correctivo y preventivo con soluciones modernas y adaptadas.",
+    image: "/Servicios/remodelacion.webp?height=300&width=400&text=Remodelaciones",
     category: "Renovación",
   },
   {
-    id: "construccion-sustentable",
-    name: "Construcción Sustentable",
-    description: "Proyectos eco-amigables con tecnologías verdes y materiales sustentables.",
+    id: "desarrollos-residenciales",
+    name: "Desarrollos Residenciales",
+    description: "Construcción de viviendas multifamiliares y fraccionamientos.",
     detailedDescription:
-      "Implementamos prácticas de construcción sustentable utilizando materiales eco-amigables, sistemas de eficiencia energética, captación de agua pluvial y tecnologías verdes. Contribuimos al cuidado del medio ambiente sin comprometer la calidad.",
-    image: "/placeholder.svg?height=300&width=400",
-    category: "Sustentable",
+      "Participamos en la edificación de torres de departamentos, conjuntos habitacionales y fraccionamientos urbanos. Nuestros proyectos están enfocados en diseño, seguridad y confort.",
+    image: "/Servicios/desarrollos-residenciales.webp?height=300&width=400&text=Residencial",
+    category: "Residencial",
   },
+  {
+    id: "urbanizacion-industrial",
+    name: "Urbanización Industrial",
+    description: "Preparación de parques industriales listos para operación.",
+    detailedDescription:
+      "Realizamos obras de urbanización en zonas industriales como vialidades, banquetas, alumbrado, instalaciones eléctricas, drenaje y acceso. Ideal para desarrolladores de parques empresariales.",
+    image: "/Servicios/urbanizacion.webp?height=300&width=400&text=Urbanización",
+    category: "Infraestructura",
+  }
 ]
