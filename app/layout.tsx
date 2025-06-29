@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "Vlock Constructora - Construimos el Futuro con Excelencia",
   description:
     "Empresa constructora con más de 10 años de experiencia. Especialistas en obra civil, industrial y desarrollos sustentables.",
+  icons: {
+    icon: "/icon.svg",
+  }
 }
 
 export default function RootLayout({
